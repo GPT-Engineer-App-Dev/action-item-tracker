@@ -52,7 +52,7 @@ const Index = () => {
             <ListItem key={task.id} display="flex" justifyContent="space-between" alignItems="center" p={2} boxShadow="md">
               <Text flex={1}>{task.text}</Text>
               <IconButton
-                aria-label="Edit task"
+                aria-label="Edit your amazing task"
                 icon={<FaEdit />}
                 onClick={() => editTask(task.id, prompt('Edit task:', task.text))}
                 mr={2}
